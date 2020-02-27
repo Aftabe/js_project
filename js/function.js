@@ -1,6 +1,6 @@
 // Setting a clock using js function
-function startTime(){
-    let today = new Date();
+function startTime(){  // This is function declaration syntex
+    const today = new Date();
     let h = today.getHours();
     let m = today.getMinutes();
     let s = today.getSeconds();
