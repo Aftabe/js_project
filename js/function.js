@@ -17,3 +17,17 @@ function checktime(i) {
 
     return i;
 }
+// Switch method
+const paymenthMethod = 'cash';
+
+switch(paymenthMethod){
+    case 'cash':
+        alert(`your paymenth method is : ${paymenthMethod}`);
+        break;
+    case 'card':
+        alert(`your paymenth method is : ${paymenthMethod} we are verifying your card`);
+        break;
+        case 'check':
+            alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
+        break;
+}
