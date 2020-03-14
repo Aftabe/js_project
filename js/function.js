@@ -30,4 +30,21 @@ switch(paymenthMethod){
         case 'check':
             alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
         break;
+};
+// This is the second example of 'Switch statement'
+const cars = ['Ford','Toyota','Mazda'];
+
+let seclectCar = 2;
+let car;
+
+switch(seclectCar) {
+    case 0:
+        car = cars[0];
+        break;
+    case 1:
+        car = cars[1];
+        break;
+    case 2:
+        car = cars[2];
+        break;
 }
