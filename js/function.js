@@ -16,4 +16,6 @@ function checktime(i){
     if(i < 10) {i = "0" + i};
 
     return i;
-}
+};
+
+// Selecting an element from html page and modify them
