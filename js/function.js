@@ -16,8 +16,7 @@ function checktime(i) {
     if (i < 10) { i = "0" + i };
 
     return i;
-<<<<<<< HEAD
-};
+}
 
 // Selecting an element from html page and modify the
 // Switch method
@@ -50,4 +49,11 @@ switch(seclectCar) {
     case 2:
         car = cars[2];
         break;
-}
+};
+
+
+// Next line of code
+
+const el = document.getElementById('mody');
+
+el.textContent = 'A green message from js page';
