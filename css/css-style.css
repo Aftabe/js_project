@@ -1,4 +1,7 @@
-#test {
-    padding: 7px 10px;
-    font-size: 37px;
+body{
+    color: black;
+    background-color: rgb(213, 221, 221);
+}
+#test{
+    font-size: 25px;
 }
