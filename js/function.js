@@ -56,4 +56,4 @@ switch(seclectCar) {
 
 const el = document.getElementById('mody');
 
-el.textContent = 'A green message from js page';
+el.textContent = 'A green message from js file';
