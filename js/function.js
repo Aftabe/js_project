@@ -6,7 +6,7 @@ function startTime() {  // This is function declaration syntex
     let s = today.getSeconds();
     m = checktime(m);
     s = checktime(s);
-    document.getElementById('test').innerHTML = h + ":" + m + ":" + s;
+    document.getElementById('test').innerHTML = h + ": " + m + ": " + s;
 
     let = setTimeout(startTime, 500);
 
