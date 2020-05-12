@@ -1,9 +1,9 @@
 // Setting a clock using js function
 function startTime() {  // This is function declaration syntex
-    let today = new Date();
-    let h = today.getHours();
-    let m = today.getMinutes();
-    let s = today.getSeconds();
+    let today = new Date(),
+        h = today.getHours(),
+        m = today.getMinutes(),
+        s = today.getSeconds();
     m = checktime(m);
     s = checktime(s);
     document.getElementById('test').innerHTML = h + ": " + m + ": " + s;
@@ -22,24 +22,24 @@ function checktime(i) {
 // Switch method
 const paymenthMethod = 'cash';
 
-switch(paymenthMethod){
+switch (paymenthMethod) {
     case 'cash':
         alert(`your paymenth method is : ${paymenthMethod}`);
         break;
     case 'card':
         alert(`your paymenth method is : ${paymenthMethod} we are verifying your card`);
         break;
-        case 'check':
-            alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
+    case 'check':
+        alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
         break;
 };
 // This is the second example of 'Switch statement'
-const cars = ['Ford','Toyota','Mazda'];
+const cars = ['Ford', 'Toyota', 'Mazda'];
 
 let seclectCar = 2;
 let car;
 
-switch(seclectCar) {
+switch (seclectCar) {
     case 0:
         car = cars[0];
         break;
