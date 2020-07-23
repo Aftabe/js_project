@@ -17,20 +17,21 @@ function checktime(i) {
 
     return i;
 }
-// Switch method
-const paymenthMethod = 'cash';
 
-switch(paymenthMethod){
-    case 'cash':
-        alert(`your paymenth method is : ${paymenthMethod}`);
-        break;
-    case 'card':
-        alert(`your paymenth method is : ${paymenthMethod} we are verifying your card`);
-        break;
-        case 'check':
-            alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
-        break;
-};
+// Switch method
+// const paymenthMethod = 'cash';
+
+// switch(paymenthMethod){
+//     case 'cash':
+//         alert(`your paymenth method is : ${paymenthMethod}`);
+//         break;
+//     case 'card':
+//         alert(`your paymenth method is : ${paymenthMethod} we are verifying your card`);
+//         break;
+//         case 'check':
+//             alert(`your paymenth method is : ${paymenthMethod} we are processing your check`);
+//         break;
+// };
 // This is the second example of 'Switch statement'
 const cars = ['Ford','Toyota','Mazda'];
 
