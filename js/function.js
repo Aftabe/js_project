@@ -11,7 +11,6 @@ function startTime() {  // This is function declaration syntex
     let = setTimeout(startTime, 500);
 
 }
-
 function checktime(i) {
     if (i < 10) { i = "0" + i };
 
