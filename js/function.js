@@ -13,7 +13,6 @@ function startTime() {  // This is function declaration syntex
 }
 function checktime(i) {
     if (i < 10) { i = "0" + i };
-
     return i;
 }
 
