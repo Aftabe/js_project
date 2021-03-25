@@ -9,7 +9,6 @@ function startTime() {  // This is function declaration syntex
     document.getElementById('test').innerHTML = h + ": " + m + ": " + s;
 
     let = setTimeout(startTime, 500);
-
 }
 function checktime(i) {
     if (i < 10) { i = "0" + i };
